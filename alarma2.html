@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <script src='js/main.js' type='text/javascript'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>P4</title>
+</head>
+<body>
+    <header>
+        <div class='title'>Alarma Sonido I</div> 
+        <div class='menu'><button class='logo'></div>
+    </header>
+    <div class='container'>
+        <div class= 'time'>
+            <input type="time" id="appt" name="appt" min="09:00" max="18:00" required> 
+        </div>
+        <div class= 'btn-dias'> </div>
+              <input type="radio" id="Do" name="dia" value="Do"
+                     checked>
+              <label for="Do">D</label>
+              <input type="radio" id="Lu" name="dia" value="Lu"
+                     checked>
+              <label for="Lu">L</label>
+              <input type="radio" id="Ma" name="dia" value="Ma"
+                     checked>
+              <label for="Ma">M</label>
+              <input type="radio" id="Mi" name="dia" value="Mi"
+                     checked>
+              <label for="Mi">M</label>
+              <input type="radio" id="Ju" name="dia" value="Ju"
+                     checked>
+              <label for="Ju">J</label>
+              <input type="radio" id="Vi" name="dia" value="Vi"
+                     checked>
+              <label for="Vi">V</label>
+              <input type="radio" id="Sa" name="dia" value="Sa"
+                     checked>
+              <label for="Sa">S</label>
+            </div>
+        </div>
+        <div class= 'dropdown-select'> </div>
+            <label for="cars">Tono de Alarma:</label>
+            <select name="cars" id="cars">
+              <option value="tarde">Estas Tarde</option>
+              <option value="miamee">Miamee</option>
+              <option value="Happy Day">Happy Day</option>
+              <option value="mystic">Mystic tone</option>
+            </select> 
+        <div class= 'btn-cta'> </div>
+             <button type="button">Guardar Cambios</button> 
+        <div class= 'btn-text'> </div>
+             <button type="button">Cancelar</button> 
+    </div>  
+</body>
+</html> 
