@@ -214,7 +214,7 @@ body .appSection .cta a {
   text-decoration: none;
   color: #10BEF0;
 }
-body .appSection a.second-cta {
+body .appSection a .second-cta {
   color: #747474;
 }
 body .appSection p {
@@ -370,6 +370,87 @@ dropdown ul li:nth-child(3):hover .fa {
   -ms-backface-visibility: hidden;
   /* Internet Explorer */
   position: relative;
+}
+
+/* Materias */
+/*calendar*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.date-label {
+  margin: 4vh auto 2vh;
+  display: flex;
+  justify-content: space-around;
+  color: #10BEF0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.date-label .fas {
+  margin: 0px 25px 0px 25px;
+  color: #10BEF0;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+.calendar .row {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  color: #FFFFFF;
+}
+.calendar .row .item-day {
+  padding: 11px;
+  min-width: 14px;
+  min-height: 20px;
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+.calendar .row .item-day-today {
+  padding: 11px;
+  min-width: 14px;
+  min-height: 20px;
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+  color: #10BEF0;
+  font-weight: bold;
+}
+.calendar .row .item-day-end {
+  padding: 11px;
+  min-width: 14px;
+  min-height: 20px;
+  border-bottom: solid 1px gray;
+}
+.calendar .row .item-turno {
+  font-family: "Roboto", sans-serif;
+  font-size: 7pt;
+  color: #FFFFFF;
+  padding: 8px 20px 8px 5px;
+  max-width: 14px;
+  max-height: 20px;
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+.calendar .row .item-empty {
+  padding: 18px;
+  max-width: 14px;
+  max-height: 20px;
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+.calendar .row .item-event-adm {
+  padding: 18px;
+  max-width: 14px;
+  max-height: 20px;
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+  background-color: #2782D7;
 }
 
 /*# sourceMappingURL=style.css.map */

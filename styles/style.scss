@@ -382,3 +382,96 @@ body {
     -ms-backface-visibility:hidden; /* Internet Explorer */
     position: relative;
   }
+
+  /* Materias */
+
+  /*calendar*/
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .date-label {
+    margin: 4vh auto 2vh;
+    display: flex;
+    justify-content: space-around;
+    color: $cyan;
+    font-family: $fontRoboto;
+    font-weight: bold;
+    font-size: 14px;
+
+    .fas {
+      margin: 0px 25px 0px 25px;
+      color: $cyan;
+    }
+
+  }
+
+  .calendar {
+    display: flex;
+    flex-direction: column;
+    font-family: $fontRoboto;
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+      color: $whiteFont;
+
+      .item-day {
+        padding: 11px;
+        min-width: 14px;
+        min-height: 20px;
+        border-right: solid 1px gray;
+        border-bottom: solid 1px gray;
+      }
+      
+      .item-day-today{
+        padding: 11px;
+        min-width: 14px;
+        min-height: 20px;
+        border-right: solid 1px gray;
+        border-bottom: solid 1px gray;
+        color: $cyan;
+        font-weight: bold;
+      }
+      
+      .item-day-end {
+        padding: 11px;
+        min-width: 14px;
+        min-height: 20px;
+        border-bottom: solid 1px gray;
+      }
+
+      .item-turno {
+        font-family: $fontRoboto;
+        font-size: 7pt;
+        color: $whiteFont;
+        padding: 8px 20px 8px 5px;
+        max-width: 14px;
+        max-height: 20px;
+        border-right: solid 1px gray;
+        border-bottom: solid 1px gray;
+      }
+
+      .item-empty {
+        padding: 18px;
+        max-width: 14px;
+        max-height: 20px;
+        border-right: solid 1px gray;
+        border-bottom: solid 1px gray;
+      }
+
+      .item-event-adm {
+        padding: 18px;
+        max-width: 14px;
+        max-height: 20px;
+        border-right: solid 1px gray;
+        border-bottom: solid 1px gray;
+        background-color: $blueMedium;
+      }
+    }
+
+  }
