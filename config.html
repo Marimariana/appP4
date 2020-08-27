@@ -7,19 +7,60 @@
     <script src='js/main.js' type='text/javascript'></script>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
     <title>P4</title>
 </head>
 <body>
-    <header>
-        <div class='title'>Configuracion</div> 
-        <div class='menu'><button class='logo'></div>
-    </header>
-    <div class='container'>
-        <div class= 'btn-config'>
+    <div class='appSection'>
+        <header>
+            <div class='title'>Configuración</div>
+            <div class='menu'><button class='logo'>P4</div>
+        </header>
+          <hr>
+      <div class='container'>
+            <div class='container-form'>
+                <form>
+                   <a href='cuenta.html'>
+                      <button type="button" class="button btn-config ">Cuenta
+                        <div id="icon"> <i class="material-icons">keyboard_arrow_right</i> </div> 
+                      </button>
+                  </a> 
+                  <a href='web.html'>
+                      <button type="button" class="button btn-config ">Sincronizar Version Web
+                        <i class="material-icons">keyboard_arrow_right</i>
+                      </button></a> 
+                  <a href='arlama.html'>
+                      <button type="button" class="button btn-config ">Configuración Alarma
+                        <i class="material-icons">keyboard_arrow_right</i>
+                      </button></a> 
+
+             <div class= 'bnt-cta'> 
+              <input type="radio" id="calendario" name="vista" value="calendario"
+                     checked>
+              <label for="calendario">Vista Calendario</label>
+              <input type="radio" id="materias" name="vista" value="materias"
+                     checked>
+              <label for="calendario">Vista Materias</label>
+        </div>
+              </button></a> 
+                    <div class='cta'>
+                        <a href="materias.html" class='ot-cta'>Cerrar Sesion</a>
+                    </div>
+
+
+<!--
+    <div class='container-form'>
+        <div class= 'button buttonBlue'>
              <button type="button">Cuenta</button> 
+        </div>
+        <div class= 'button buttonBlue'>
              <button type="button">Sinconizar Version Web</button> 
+        </div>
+        <div class= 'button buttonBlue'>
              <button type="button">Configuración Alarmas</button> 
         </div>
+       
         <div class= 'radio-btn'>
               <input type="radio" id="calendario" name="vista" value="calendario"
                      checked>
@@ -38,7 +79,7 @@
              <button type="button">Cancelar</button> 
         </div> 
     </div>      
-
+-->
 
 
 

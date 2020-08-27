@@ -193,11 +193,29 @@ body .appSection .button {
 body .appSection .button:focus {
   outline: 0;
 }
+
+
+
+
+
+
+body .appSection .btn-config {
+  background: #10BEF0;
+  box-shadow: 2px 2px 0 rgba(42, 57, 76, 0.5);
+  border-radius: 10px;
+  text-align: left; 
+
+}
+body .appSection .btn-config:hover {
+  opacity: 75%;
+}
+
 body .appSection .buttonBlue {
   background: #10BEF0;
   box-shadow: 2px 2px 0 rgba(42, 57, 76, 0.5);
   border-radius: 10px;
 }
+
 body .appSection .buttonBlue:hover {
   opacity: 75%;
 }
@@ -356,6 +374,38 @@ dropdown ul li:nth-child(3):hover .fa {
   color: white;
 }
 
+i {
+  color: #FFFFFF;
+  font-size: 24px !important;
+  vertical-align:middle;
+  text-align: right;
+
+}
+
+#icon {
+  text-align: right;
+  display: inline;
+}
+
+
+.radio-btn {
+  background: #FFFFFF;
+  color: #FFFFFF;
+  box-shadow: 2px 2px 0 rgba(42, 57, 76, 0.5);
+  border-radius: 10px;
+  text-align: left; 
+
+}
+
+#header-nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+
+
+
 .animate {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -371,5 +421,97 @@ dropdown ul li:nth-child(3):hover .fa {
   /* Internet Explorer */
   position: relative;
 }
+
+
+.popup-alarma {
+  background: #10BEF0;
+  height: 58px;
+  box-shadow: 2px 2px 0 rgba(42, 57, 76, 0.5);
+  border-radius: 10px;
+  text-align: left; 
+  padding: 12px 24px;
+  margin: 0em 0 0.6em 0;
+  width: 100%;
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+}
+.popup-alarma:hover {
+  opacity: 75%;
+}
+
+.popup-alarma-b {
+  background: #0086CE;
+  box-shadow: 2px 2px 0 rgba(42, 57, 76, 0.5);
+  border-radius: 10px;
+  text-align: left; 
+  padding: 12px 24px;
+  margin: 0em 0 0.6em 0;
+  height: 58px;
+  width: 100%;
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+
+}
+.popup-alarma-b:hover {
+  opacity: 75%;
+}
+
+
+
+.popup-alarma-c {
+  background: #5C89A1;
+  box-shadow: 2px 2px 0 rgba(42, 57, 76, 0.5);
+  border-radius: 10px;
+  text-align: left; 
+  padding: 12px 24px;
+  margin: 0em 0 0.6em 0;
+  height: 58px;
+  width: 100%;
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+}
+.popup-alarma-c:hover {
+  opacity: 75%;
+}
+
+.material-icons {
+fill: transparent;
+border: white;
+  }
+#icon{
+
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
