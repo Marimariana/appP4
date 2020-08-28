@@ -372,6 +372,48 @@ dropdown ul li:nth-child(3):hover .fa {
   position: relative;
 }
 
+<<<<<<< HEAD
+/*nati cuentas y version desktop */
+.container-datos {
+  margin-top: 2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.77px;
+  color: #77838F;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-respuestas {
+  margin-top: 0.7rem;
+  letter-spacing: 0.77px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #C1C1C1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.conectar-web {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.conteiner-qr {
+  margin-top: 3rem;
+=======
 /*IMG CALENDARIO*/
 .img-calen {
   background-image: url("img-vistcal-off.svg");
@@ -547,6 +589,7 @@ dropdown ul li:nth-child(3):hover .fa {
   color: #10BEF0;
   display: inline-block;
   overflow: hidden;
+>>>>>>> 6495e2329c0893f1d28c4a208c056934e20aef53
 }
 
 /*# sourceMappingURL=style.css.map */
