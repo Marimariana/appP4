@@ -52,7 +52,6 @@ body {
     margin: 2vh auto;
     min-height: 649px;
     align-items: center;
-    overflow-y: scroll;
     
     .onboarding {
         width: 100%;
@@ -683,7 +682,7 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
 }
 
 .img-mat{
-  background-image: url("img-materias.svg");
+  background-image: url("../img/img-vistamat-off.svg");
     width: 70px;
   height: 70px;
 
@@ -697,7 +696,7 @@ margin: 1px 50px;
 }
 
 .radiobtn{
-   background-image: url("radio_button_unchecked-white-18dp.svg");
+   background-image: url("../img/radio_button_unchecked-black-18dp.svg");
    width: 60px;
   height: 60px;
   display: inline-block;
@@ -721,7 +720,7 @@ width: 60px;
 
 
 .img-cal{
-    background-image: url("img-calenadm.svg");
+    background-image: url("../img/img-calen-adm.svg");
     width: 70px;
     height: 70px;
     background-position: center; 
@@ -733,7 +732,7 @@ width: 60px;
 }
 
 .radiobtncal{
-   background-image: url("radio_button_unchecked-white-18dp.svg");
+   background-image: url("../img/radio_button_unchecked-black-18dp.svg");
    width: 60px;
   height: 40px;
   display: inline;
@@ -745,7 +744,7 @@ margin: 1px 23px;
 
 
 .radiobtncal:hover {
- background-image:  url("radiobtn-on.svg");
+ background-image:  url("../img/radio_button_checked-black-18dp.svg");
 background-position: center; 
 background-repeat: no-repeat;
 background-size: contain;

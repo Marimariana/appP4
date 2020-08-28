@@ -37,7 +37,6 @@ body .appSection {
   margin: 2vh auto;
   min-height: 649px;
   align-items: center;
-  overflow-y: scroll;
   /* Label */
   /* active */
   /* Underline */
@@ -521,7 +520,8 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   display: none;
   overflow: hidden;
   background-color: #005F93;
-=======
+}
+
 /*nati cuentas y version desktop */
 .container-datos {
   margin-top: 2rem;
@@ -562,6 +562,8 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
 
 .conteiner-qr {
   margin-top: 3rem;
+}
+
 /*IMG CALENDARIO*/
 .img-calen {
   background-image: url("img-vistcal-off.svg");
@@ -640,7 +642,7 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
 }
 
 .img-mat {
-  background-image: url("img-materias.svg");
+  background-image: url("../img/img-vistamat-off.svg");
   width: 70px;
   height: 70px;
   background-position: center;
@@ -653,7 +655,7 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
 }
 
 .radiobtn {
-  background-image: url("radio_button_unchecked-white-18dp.svg");
+  background-image: url("../img/radio_button_unchecked-black-18dp.svg");
   width: 60px;
   height: 60px;
   display: inline-block;
@@ -673,7 +675,7 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
 
 /*CALENDARIO ADM*/
 .img-cal {
-  background-image: url("img-calenadm.svg");
+  background-image: url("../img/img-calen-adm.svg");
   width: 70px;
   height: 70px;
   background-position: center;
@@ -685,7 +687,7 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
 }
 
 .radiobtncal {
-  background-image: url("radio_button_unchecked-white-18dp.svg");
+  background-image: url("../img/radio_button_unchecked-black-18dp.svg");
   width: 60px;
   height: 40px;
   display: inline;
@@ -696,7 +698,7 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
 }
 
 .radiobtncal:hover {
-  background-image: url("radiobtn-on.svg");
+  background-image: url("../img/radio_button_checked-black-18dp.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -737,7 +739,6 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   color: #10BEF0;
   display: inline-block;
   overflow: hidden;
->>>>>>> 277f8e538a376469fd51ba26e5de63d5ff3d394b
 }
 
 /*# sourceMappingURL=style.css.map */
