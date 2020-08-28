@@ -37,6 +37,7 @@ body .appSection {
   margin: 2vh auto;
   min-height: 649px;
   align-items: center;
+  overflow-y: scroll;
   /* Label */
   /* active */
   /* Underline */
@@ -374,12 +375,6 @@ dropdown ul li:nth-child(3):hover .fa {
 
 /* Materias */
 /*calendar*/
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-}
-
 .date-label {
   margin: 4vh auto 2vh;
   display: flex;
@@ -394,63 +389,138 @@ dropdown ul li:nth-child(3):hover .fa {
   color: #10BEF0;
 }
 
-.calendar {
-  display: flex;
-  flex-direction: column;
+/* WRAPPER */
+.wrapper {
+  display: grid;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-columns: 1fr;
+  width: 298px;
+  height: 188px;
+  margin: 15px auto;
   font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
 }
-.calendar .row {
+
+/* MAIN */
+.calendar__week,
+.calendar__header {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.calendar__week {
+  grid-auto-rows: 45px;
+  text-align: center;
+}
+
+.calendar__header {
+  align-items: center;
+  text-align: center;
+}
+
+/* COSMETIC STYLING */
+.calendar__header > div {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-right: 1.2438px solid rgba(255, 255, 255, 0.5);
+  height: 30px;
+  padding-top: 10px;
+}
+
+.calendar__day {
+  border-right: 1.2438px solid rgba(255, 255, 255, 0.5);
+  border-top: 1.2438px solid rgba(255, 255, 255, 0.5);
+  font-size: 8px;
+  text-align: -webkit-center;
+}
+
+.calendar__day > .event_adm, .event_event, .event_materia {
+  width: 37px;
+  height: 42px;
+}
+
+.calendar__day > .event_adm {
+  background-color: #005F93;
+}
+
+.calendar__day > .event_event {
+  background-color: #2782D7;
+}
+
+.calendar__day > .event_materia {
+  background-color: #10BEF0;
+}
+
+.calendar__day:last-child {
+  border-right: 0;
+}
+
+/* Selector de calendario */
+.selector-calendario {
   display: flex;
   flex-direction: row;
-  margin: auto;
+  justify-content: space-evenly;
   color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  margin-top: 45px;
+  margin-bottom: 15px;
 }
-.calendar .row .item-day {
-  padding: 11px;
-  min-width: 14px;
-  min-height: 20px;
-  border-right: solid 1px gray;
-  border-bottom: solid 1px gray;
+
+.type-selector {
+  margin-left: 5px;
 }
-.calendar .row .item-day-today {
-  padding: 11px;
-  min-width: 14px;
-  min-height: 20px;
-  border-right: solid 1px gray;
-  border-bottom: solid 1px gray;
-  color: #10BEF0;
+
+i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.fa-circle:visited, i.far.fa-circle:focus-within, i.far.fa-circle:active {
+  background-color: #10BEF0;
+  border-radius: 5px;
+}
+
+/* tarjetas colapsables */
+.eventos-generales {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-block-event, .event-block-materia {
+  width: 298px;
+  border-radius: 15px;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
+
+.event-block-event {
+  background-color: #2782D7;
+}
+
+.event-block-materia {
+  background-color: #10BEF0;
+}
+
+.event-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
   font-weight: bold;
 }
-.calendar .row .item-day-end {
-  padding: 11px;
-  min-width: 14px;
-  min-height: 20px;
-  border-bottom: solid 1px gray;
+
+.event-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
 }
-.calendar .row .item-turno {
-  font-family: "Roboto", sans-serif;
-  font-size: 7pt;
-  color: #FFFFFF;
-  padding: 8px 20px 8px 5px;
-  max-width: 14px;
-  max-height: 20px;
-  border-right: solid 1px gray;
-  border-bottom: solid 1px gray;
-}
-.calendar .row .item-empty {
-  padding: 18px;
-  max-width: 14px;
-  max-height: 20px;
-  border-right: solid 1px gray;
-  border-bottom: solid 1px gray;
-}
-.calendar .row .item-event-adm {
-  padding: 18px;
-  max-width: 14px;
-  max-height: 20px;
-  border-right: solid 1px gray;
-  border-bottom: solid 1px gray;
-  background-color: #2782D7;
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #005F93;
 }
 
 /*# sourceMappingURL=style.css.map */
