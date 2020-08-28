@@ -353,7 +353,8 @@ body {
     top: 0;
   }
   $colors: #E74C3C, #0072B5, #2C3E50;
-  
+
+    
   @for $i from 1 through length($colors) {
     dropdown ul li:nth-child(#{$i}) {
       border-left: 4px solid nth($colors, $i);
@@ -382,3 +383,203 @@ body {
     -ms-backface-visibility:hidden; /* Internet Explorer */
     position: relative;
   }
+/*IMG CALENDARIO*/
+
+.img-calen {
+  background-image: url("img-vistcal-off.svg");
+ background-position: center; 
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 100px;
+}
+
+.btn-ob .img-calen:hover {
+  background-image:  url("img-vistacal-on.svg");
+ background-position: center; 
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 150px;
+  }
+
+
+
+/*IMG MATERIAS*/
+
+
+.img-mat { 
+ background-image: url("img-vistamat-off.svg");
+ background-position: center; 
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 100px;
+}
+
+.btn-ob .img-mat:hover {
+  background-image:  url("img-vistamat-on.svg");
+ background-position: center; 
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 150px;
+  }
+
+ /* CAJAS */
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #FFFFFF;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding: 10px;
+  margin: 15px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  font-size: 24px;
+  line-height: 28px;
+  min-width: 282px;
+  max-width: 283px;
+  min-height: 74px;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  background-color:  #323746;
+  box-shadow: 2px 2px 0 rgba(42, 57, 76, 0.5);
+  border-radius: 10px;
+ 
+
+}
+
+
+.caladm{
+  font-size:18px;
+  display:flex;
+  flex-direction: row;
+  width: 50px;
+  
+}
+
+
+.cta .ot-cta {
+  font-family: roboto;
+  font-size: 13px;
+  color: #10BEF0;
+  display: flex;
+  margin: 10px 140px;
+}
+
+.img-mat{
+  background-image: url("img-materias.svg");
+    width: 70px;
+  height: 70px;
+
+    background-position: center; 
+background-repeat: no-repeat;
+background-size: contain;
+margin: 1px 50px;
+   display: inline-block;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.radiobtn{
+   background-image: url("radio_button_unchecked-white-18dp.svg");
+   width: 60px;
+  height: 60px;
+  display: inline-block;
+background-position: center; 
+background-repeat: no-repeat;
+margin: 1px 23px;  
+}
+
+
+.radiobtn:hover {
+ background-image:  url("radiobtn-on.svg");
+background-position: center; 
+background-repeat: no-repeat;
+background-size: contain;
+width: 60px;
+  height: 50px;
+ 
+ }
+
+/*CALENDARIO ADM*/
+
+
+.img-cal{
+    background-image: url("img-calenadm.svg");
+    width: 70px;
+    height: 70px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 1px 50px;
+    display: inline;
+    margin: 0px;
+}
+
+.radiobtncal{
+   background-image: url("radio_button_unchecked-white-18dp.svg");
+   width: 60px;
+  height: 40px;
+  display: inline;
+background-position: center; 
+background-repeat: no-repeat;
+margin: 1px 23px;  
+  padding:5px;
+}
+
+
+.radiobtncal:hover {
+ background-image:  url("radiobtn-on.svg");
+background-position: center; 
+background-repeat: no-repeat;
+background-size: contain;
+width: 60px;
+  height: 40px;
+
+ 
+ }
+
+.btn:hover {
+   
+  background-color: #10BEF0;
+     display: relative;
+   width: auto;
+        }
+
+/*CONFIRMAR*/
+
+.btn-cta{
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px 20px;
+  width: 300px;
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  letter-spacing: 1px;
+  background: #10BEF0;
+  border: 0;
+  border-radius: 3px;
+
+}
+
+
+/*INICIAR SESION*/
+
+.ot-cta {
+  font-family: roboto, sans-serif;
+  font-size: 13px;
+  color: #10BEF0;
+  display: inline-block;
+  overflow: hidden;
+}
