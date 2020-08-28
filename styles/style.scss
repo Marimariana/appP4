@@ -382,3 +382,50 @@ body {
     -ms-backface-visibility:hidden; /* Internet Explorer */
     position: relative;
   }
+
+
+  /*nati cuentas y version desktop */ 
+
+  .container-datos {
+    margin-top: 2rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.77px;
+    color: #77838F;
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.container-respuestas {
+    margin-top: 0.7rem;
+    letter-spacing: 0.77px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C1C1C1;
+    display:flex;
+    justify-content:space-around;
+}
+.conectar-web{
+     
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 3rem;
+   text-align: center;
+    
+}
+
+.conteiner-qr{
+    margin-top: 3rem;
+    
+}
