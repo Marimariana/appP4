@@ -41,3 +41,13 @@ const toggleMenu = () => {
     }
   }
 >>>>>>> mariMaterias
+
+
+  // DIAS en alarma2.html
+
+
+ $(document).ready(function(){
+    $('.day-a').click(function(){
+    $('.day-a').hide();
+  });
+});

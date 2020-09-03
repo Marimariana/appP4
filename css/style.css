@@ -96,7 +96,7 @@ body .appSection input {
   display: block;
   background: #323746;
   color: #636363;
-  width: 100%;
+  width: 94%;
   border: none;
   border-radius: 0;
   border-bottom: 1px solid #757575;
@@ -131,7 +131,7 @@ body .appSection .bar {
 body .appSection .bar:before, body .appSection .bar:after {
   content: "";
   height: 2px;
-  width: 0;
+  width: 0px;
   bottom: 1px;
   position: absolute;
   background: #10BEF0;
@@ -198,6 +198,7 @@ body .appSection .buttonBlue {
   border-radius: 10px;
   text-align: center;
   display: inline-block;
+
 }
 body .appSection .buttonBlue:hover {
   opacity: 75%;
@@ -215,9 +216,11 @@ body .appSection .cta a {
   text-decoration: none;
   color: #10BEF0;
 }
-body .appSection a .second-cta {
+
+body .appSection .cta .second-cta {
   color: #747474;
 }
+
 body .appSection p {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -232,7 +235,7 @@ body .appSection .btn-ob {
   justify-content: space-between;
   box-sizing: content-box;
   padding: 15px;
-  margin: 15px auto;
+  margin: 15px 0px 0px 0px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -608,7 +611,7 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   justify-content: space-between;
   box-sizing: content-box;
   padding: 10px;
-  margin: 15px;
+  margin: 10px 0px 0px 0px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -616,7 +619,6 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   text-align: left;
   font-size: 24px;
   line-height: 28px;
-  min-width: 282px;
   max-width: 283px;
   min-height: 74px;
   -webkit-font-smoothing: antialiased;
@@ -625,7 +627,42 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   background-color: #323746;
   box-shadow: 2px 2px 0 rgba(42, 57, 76, 0.5);
   border-radius: 10px;
+  align-items: center;
 }
+
+
+
+
+/* CAJAS */
+body .appSection .btn {
+  display: flex;
+  flex-direction: row;  border-radius: 10px;
+  justify-content: space-between;
+  column-gap: 6px
+  border: solid 2px #FFFFFF;
+
+  box-sizing: content-box;
+  padding: 7px 15px 7px 15px;
+  margin: 10px 0px 0px 0px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  min-width: 93px;
+  max-width: 283px;
+
+}
+body .appSection .vista .radio-btn:hover {
+  border: solid 2px #10BEF0;
+  background-color: #10BEF0;
+}
+body .appSection .vista .radio-btn spa/*nati cuentas y version desktop */
+n {
+  max-width: 57px;
+}
+
 
 .caladm {
   font-size: 18px;
@@ -643,7 +680,7 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
 }
 
 .img-mat {
-  background-image: url("../img/img-vistamat-off.svg");
+  background-image: url("../img/materias.svg");
   width: 70px;
   height: 70px;
   background-position: center;
@@ -656,17 +693,55 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
 }
 
 .radiobtn {
-  background-image: url("../img/radio_button_unchecked-black-18dp.svg");
+  background-image: url("../img/img-element-unchecked.svg");
   width: 60px;
   height: 60px;
   display: inline-block;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 1px 23px;
 }
 
 .radiobtn:hover {
-  background-image: url("radiobtn-on.svg");
+  background-image: url("../img/img-element-checked.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60px;
+  height: 50px;
+}
+
+
+
+.radiobtncal {
+  background-image: url("../img/img-element-unchecked.svg");
+  width: 100px;
+  height: 60px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.radiobtncal:hover {
+  background-image: url("../img/img-element-checked.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 50px;
+}
+
+
+.radiobtneve {
+  background-image: url("../img/img-element-unchecked.svg");
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.radiobtneve:hover {
+  background-image: url("../img/img-element-checked.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -676,36 +751,33 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
 
 /*CALENDARIO ADM*/
 .img-cal {
-  background-image: url("../img/img-calen-adm.svg");
+  background-image: url("../img/calendario-adm.svg");
+  width: 108px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px;
+  margin: 1px 50px;
+  display: inline-block;
+  flex-direction: row;
+  margin: 0px 0px 0px 0px;
+}
+
+/*CALENDARIO ADM*/
+.img-eve {
+  background-image: url("../img/eventos.svg");
   width: 70px;
   height: 70px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 1px 50px;
-  display: inline;
-  margin: 0px;
+  display: inline-block;
+  flex-direction: row;
+  margin: 0p
+
 }
 
-.radiobtncal {
-  background-image: url("../img/radio_button_unchecked-black-18dp.svg");
-  width: 60px;
-  height: 40px;
-  display: inline;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 1px 23px;
-  padding: 5px;
-}
 
-.radiobtncal:hover {
-  background-image: url("../img/radio_button_checked-black-18dp.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 60px;
-  height: 40px;
-}
 
 .btn:hover {
   background-color: #10BEF0;
@@ -718,7 +790,7 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   position: relative;
   display: inline-block;
   padding: 12px 24px;
-  margin: 10px 20px;
+  margin: 15px 0px 15px 0px;
   width: 300px;
   vertical-align: middle;
   color: #FFFFFF;
@@ -731,6 +803,9 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   background: #10BEF0;
   border: 0;
   border-radius: 3px;
+  width: 100%;
+  border-radius: 10px;
+
 }
 
 /*INICIAR SESION*/
@@ -1213,7 +1288,6 @@ color: white;
 }
 
 
-/*nati cuentas y version desktop */
 body .appSection .vista .radio-btn {
   display: flex;
   flex-direction: row;
@@ -1238,7 +1312,8 @@ body .appSection .vista .radio-btn:hover {
   border: solid 2px #10BEF0;
   background-color: #10BEF0;
 }
-body .appSection .vista .radio-btn span {
+body .appSection .vista .radio-btn spa/*nati cuentas y version desktop */
+n {
   max-width: 57px;
 }
 
@@ -1311,6 +1386,7 @@ font-size: 12px;
   max width: 100px;
 }
 
+a 
 
 
 body form .bnt-ob - 
