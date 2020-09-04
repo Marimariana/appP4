@@ -202,7 +202,7 @@ input:focus ~ .highlight {
 
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
-  from { background:##10BEF0; }
+  from { background:#10BEF0; }
   to  { width:0; background:transparent; }
 }
 
@@ -1450,9 +1450,6 @@ border: white;
 a{
   text-decoration: none;
 }
-#icon{
-
-}
 
 
 .dropdown-alarma {
@@ -2015,12 +2012,6 @@ color: #FFFFFF;
   border-bottom: none;
 }
 
-#acordeon>ul>li.active>a {
-}
-
-#acordeon>ul>li.active>a span {
-}
-
 #acordeon span.cnt {
   position: absolute;
   top: 8px;
@@ -2043,8 +2034,6 @@ color: #FFFFFF;
   display: block;
 }
 
-#acordeon ul ul a:hover {
-}
 
 #acordeon ul ul li.odd {
   border-radius: 20px;
