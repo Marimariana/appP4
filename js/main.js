@@ -49,11 +49,19 @@ $(".btn-ob2").click(function(){
 
 
 
+$(".radio-btnb").click(function(){
+  $(this).css("background-color", "#10BEF0");
+  $(".radiobtn-switchoff").toggleClass("radiobtn-switchonb");
+    $(".radio-btna").css("background-color", "transparent");
+      $(".radiobtn-switchon").toggleClass("radiobtn-switchoffb");
 
-$(".radio-btn").click(function(){
-  $(this).toggleid("btn-a");
+// $(".radio-btnb").click(function(){
+//   $(this).toggleClass("radio-btnd");
+//   $(".radiobtn-switchoff").toggleClass("radiobtn-switchon");
+//     $(".radio-btna").css("background-color", "transparent");
 
-}); 
+
+});
 
 
 });
