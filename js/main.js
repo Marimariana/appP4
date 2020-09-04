@@ -1,8 +1,5 @@
 //iniciador
 const initialize = () => {
-  
-
-  
   getTheme()
 }
 
