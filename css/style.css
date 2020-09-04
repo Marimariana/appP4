@@ -1711,7 +1711,10 @@ font-size: 12px;
 
 
 #conteiner-qr img {
-  max width: 100px;
+    max-width: 360px;
+    max-height: 542px;
+    object-fit: contain;
+
 }
 
   
