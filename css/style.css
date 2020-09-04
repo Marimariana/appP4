@@ -95,11 +95,12 @@ body .appSection input {
   -webkit-appearance: none;
   display: block;
   background: #323746;
-  color: #636363;
+  color: #9ADFF3;
   width: 94%;
   border: none;
   border-radius: 0;
   border-bottom: 1px solid #757575;
+
 }
 body .appSection input:focus {
   outline: none;
@@ -226,6 +227,7 @@ body .appSection p {
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
+
 }
 body .appSection .btn-ob {
   display: flex;
@@ -250,6 +252,60 @@ body .appSection .btn-ob:hover {
   border: solid 2px #10BEF0;
   background-color: #10BEF0;
 }
+
+
+
+body .appSection .btn-ob1 {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #FFFFFF;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding: 15px;
+  margin: 15px 0px 0px 0px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  min-width: 260px;
+  max-width: 283px;
+  min-height: 134px;
+}
+body .appSection .btn-ob1:hover {
+  border: solid 2px #10BEF0;
+  background-color: #10BEF0;
+}
+
+
+body .appSection .btn-ob2 {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #FFFFFF;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding: 15px;
+  margin: 15px 0px 0px 0px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  min-width: 260px;
+  max-width: 283px;
+  min-height: 134px;
+}
+body .appSection .btn-ob2:hover {
+  border: solid 2px #10BEF0;
+  background-color: #10BEF0;
+}
+
+
+
 body .appSection .btn-ob span {
   max-width: 57px;
 }
@@ -553,8 +609,8 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
-  margin-top: 3rem;
-  text-align: center;
+  margin: 29px 20px 30px 24px;
+  text-align: left;
 }
 
 .conteiner-qr {
@@ -1659,6 +1715,77 @@ body .appSection .btn-check {
 
 
 
+
+body .appSection .btn-ob1 {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #FFFFFF;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding: 15px;
+  margin: 15px 0px 0px 0px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  min-width: 260px;
+  max-width: 283px;
+  min-height: 134px;
+}
+body .appSection .btn-ob:hover {
+  border: solid 2px #10BEF0;
+  background-color: #10BEF0;
+}
+
+body .appSection .btn-ob2 {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #FFFFFF;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding: 15px;
+  margin: 15px 0px 0px 0px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  min-width: 260px;
+  max-width: 283px;
+  min-height: 134px;
+}
+body .appSection .btn-ob:hover {
+  border: solid 2px #10BEF0;
+  background-color: #10BEF0;
+}
+
+
+
+body .appSection .btn-obc {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #FFFFFF;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding: 15px;
+  margin: 15px 0px 0px 0px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  min-width: 260px;
+  max-width: 283px;
+  min-height: 134px;
+  background-color: #10BEF0;
+}
 
 
 

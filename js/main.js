@@ -26,6 +26,39 @@ $(".btn-eve").click(function(){
 });	
 
 
+$(".btn-ob2").on({
+     'click': function(){
+         $(".change-img2").attr("src","img/img-vistamat-on.svg");
+     }
+ });
+
+$(".btn-ob1").on({
+     'click': function(){
+         $(".change-img1").attr("src","img/img-vistacal-on.svg");
+     }
+ });
+
+
+
+
+
+$(".btn-ob1").click(function(){
+  $(this).toggleClass("btn-obc");
+});
+
+
+
+
+
+
+
+
+$(".btn-ob2").click(function(){
+  $(this).toggleClass("btn-obc");
+});
+
+
+
 
 });
 
