@@ -93,12 +93,14 @@ body .appSection input {
   padding: 10px 10px 10px 5px;
   -webkit-appearance: none;
   display: block;
-  background: #ebebeb;
-  color: #0fbef0;
+  background: #323746;
+  color: #9ADFF3;
   width: 94%;
   border: none;
   border-radius: 0;
   border-bottom: 1px solid #757575;
+  background-color: transparent;
+  color: #10BEF0;
 
 }
 body .appSection input:focus {
@@ -683,6 +685,7 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   color: #FFFFFF;
   margin: 29px 20px 30px 24px;
   text-align: left;
+  color: #323746;
 }
 
 .conteiner-qr {
@@ -799,7 +802,6 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   cursor: pointer;
   transition: all 0.15s ease;
   background-color: #323746;
-  box-shadow: 2px 2px 0 rgba(42, 57, 76, 0.5);
   border-radius: 10px;
   align-items: center;
 }
@@ -1244,6 +1246,9 @@ i {
 
 }
 
+
+
+
 body .radio-btn input {
 appearance: radio;
 width: 145.68px;
@@ -1491,7 +1496,7 @@ body .appSection input[type=time] {
   width: 100%;
   border: none;
   border-radius: 0;
-  margin: -16px 127px -16px 127px;
+  margin: -16px 100px -16px 100px;
   box-sizing: border-box;
   display: flex;
   justify-content: center; 
@@ -1508,9 +1513,10 @@ body .appSection input[type=time] {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.77px;
-  color: #323746;
+  color: #77838F;
   display: flex;
   margin-left: 37px;
+  color: #000000;
 
 }
 
@@ -1522,9 +1528,10 @@ body .appSection input[type=time] {
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
-  color: #626161;
+  color: #C1C1C1;
   display: flex;
   margin-left: 36px;
+  color: #626161;
 
 }
 
@@ -1621,8 +1628,6 @@ body .appSection .vista {
 
 #btn-b{
     margin-left: 6px;
-    color: #323746;
-    border-color: #323746;
 }
 
 
@@ -1636,6 +1641,7 @@ body .appSection .vista {
     display: flex;
     align-items: center;
     vertical-align: middle;
+    color: #323746;
 }
 
 
@@ -1873,3 +1879,228 @@ margin-left: 40px;
 
 margin-left: 78px;
 }
+
+
+
+
+
+
+
+
+
+/*TEST BTNA CONFIG HERNAN*/
+
+body .appSection .vista .radio-btnb    {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px
+  border: solid 2px #FFFFFF;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding: 7px 15px 7px 15px;
+  margin: 0px 0px 0px 0px;
+  color: #323746;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  min-width: 93px;
+  max-width: 104px;
+  max-height: 30px;
+    background: transparent;
+  width: 145.68px;
+  border: 0.83871px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  text-align: left; 
+  width: 130px;
+  align-items: center;
+  color: #323746;
+  border-color: #323746;
+
+}
+
+body .appSection .vista .radio-btnb:hover {
+  background-color: #10BEF0;
+}
+
+/*TEST BTNB CONFIG HERNAN*/
+
+body .appSection .vista .radio-btna    {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px
+  border: solid 2px #FFFFFF;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding: 7px 15px 7px 15px;
+  margin: 0px 0px 0px 0px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  min-width: 93px;
+  max-width: 104px;
+  max-height: 30px;
+    background: transparent;
+  width: 145.68px;
+  border: 0.83871px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  text-align: left; 
+  width: 130px;
+  background-color: #10BEF0; 
+  align-items: center;
+
+}
+
+body .appSection .vista .radio-btna:hover {
+  background-color: #10BEF0;
+}
+
+/*END TEST BTNB CONFIG HERNAN*/
+
+
+
+
+/*SWITCH EN config.html*/
+
+
+
+
+.radiobtn-switchoff {
+  background-image: url("../img/config-unchecked.svg");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.radiobtn-switchon {
+  background-image: url("../img/config-checked.svg");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.radiobtn-switchoffb {
+  background-image: url("../img/config-unchecked.svg");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.radiobtn-switchonb {
+  background-image: url("../img/config-checked.svg");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+PARA Q ANDE CONFIG SWITCH
+
+
+
+/*TEST BTNC CONFIG HERNAN*/
+
+body .appSection .vista .radio-btnc    {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px
+  border: solid 2px #FFFFFF;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding: 7px 15px 7px 15px;
+  margin: 0px 0px 0px 0px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  min-width: 93px;
+  max-width: 104px;
+  max-height: 30px;
+    background: transparent;
+  width: 145.68px;
+  border: 0.83871px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  text-align: left; 
+  width: 130px;
+  align-items: center;
+  background-color: white;
+
+}
+
+body .appSection .vista .radio-btnc:hover {
+  background-color: #10BEF0;
+}
+
+/*TEST BTND CONFIG HERNAN*/
+
+body .appSection .vista .radio-btnd    {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px
+  border: solid 2px #FFFFFF;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding: 7px 15px 7px 15px;
+  margin: 0px 0px 0px 0px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  min-width: 93px;
+  max-width: 104px;
+  max-height: 30px;
+    background: transparent;
+  width: 145.68px;
+  border: 0.83871px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  text-align: left; 
+  width: 130px;
+  background-color: #10BEF0; 
+  align-items: center;
+
+}
+
+body .appSection .vista .radio-btnd:hover {
+  background-color: #10BEF0;
+}
+
+/*END TEST BTNB CONFIG HERNAN*/

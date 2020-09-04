@@ -55,11 +55,6 @@ $(".radio-btnb").click(function(){
     $(".radio-btna").css("background-color", "transparent");
       $(".radiobtn-switchon").toggleClass("radiobtn-switchoffb");
 
-// $(".radio-btnb").click(function(){
-//   $(this).toggleClass("radio-btnd");
-//   $(".radiobtn-switchoff").toggleClass("radiobtn-switchon");
-//     $(".radio-btna").css("background-color", "transparent");
-
 
 });
 
