@@ -1,53 +1,16 @@
-<<<<<<< HEAD
-$(document).ready(function(){
+$(document).ready(function() {
+    // document is loaded and DOM is ready
 
-	$('.menu').hover(function(){}
-
-
-}
-
-/* Set the width of the side navigation to 250px */
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-} 
-=======
-//iniciador
-const initialize = () => {
-    toggleMenu()
-    getTheme()
-  }
-
-  // MOSTRAR MENU MOBILE
-const toggleMenu = () => {
-    let menu = document.getElementById('menu')
-    menu.classList.toggle('open')
-    menu.classList.toggle('closed')
-    let hamburger = document.getElementById('hamburger')
-    hamburger.classList.toggle('close-icon')
-  }
-
-
-  // AUXILIARES xd
-  
-  const closeMenu = () => {
-    let menu = document.getElementById('menu')
-    if (menu.classList.contains('open')) {
-      toggleMenu()
-    }
-  }
->>>>>>> mariMaterias
-
-
-  // DIAS en alarma2.html
-
-
- $(document).ready(function(){
-    $('.day-a').click(function(){
-    $('.day-a').hide();
-  });
+$(".day-a").click(function(){
+  $(this).toggleClass("day-c");
 });
+
+$(".day-b").click(function(){
+  $(this).toggleClass("day-c");
+});
+
+
+});
+
+
+
