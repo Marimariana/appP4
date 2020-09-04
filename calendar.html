@@ -14,13 +14,7 @@
   <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
 </script>
-<script type="text/javascript">
-  $(document).ready(function () {
-    $('#menu_on').click(function () { 
-      $('body').toggleClass('visible_menu');
-    })
-  });
-</script>
+
 <script src='js/main.js' type='text/javascript'></script>
 <script src="https://kit.fontawesome.com/b4ad757358.js" crossorigin="anonymous"></script>
 <link
@@ -32,7 +26,7 @@ rel="stylesheet">
 <title>P4</title>
 </head>
 
-<body>
+<body onload="initialize()">
   <div class='appSection' id="wrapper">
     <header id="#header">
       <div class='title'>Tu Calendario</div>
@@ -47,42 +41,10 @@ rel="stylesheet">
 
     <nav>
       <ul>
-        <li><a href="#">Pabellon 4 <i class="fas fa-cog"></i></a></li>
-        <li><a href="#"><i class="fas fa-desktop"></i>En <strong> 30 minutos </strong> empieza PAV</a></li>
-        <li><a href="#"><i class="fas fa-desktop"></i>En <strong>1 hora</strong> empieza PAV</a></li>
-        <li><a href="#"><i class="fas fa-calendar-day"></i></i>Recordá que hoy juega River!
-     
-
-<!-- ALARGAR LISTA
-
- <ul>
-        <li><a href="#">Pabellon 4 <i class="fas fa-cog"></i></a></li>
-
-        <li><a href="#"><i class="fas fa-desktop"></i>En <strong> 30 minutos </strong> empieza PAV</a></li>
-        
-        <li><a href="#"><i class="fas fa-desktop"></i>En <strong>1 hora</strong> empieza PAV</a>
-        </li>
-        
-        <li><a href="#"><i class="fas fa-calendar-day"></i></i>Recordá que hoy juega River!
-
-        <li><a href="#"><i class="fas fa-calendar-day"></i></i>Ya están las fecha de finales
-
-        <li><a href="#"><i class="fas fa-calendar-day"></i></i>En 1 hora empieza Sonido II
-
-                  <li><a href="#"><i class="fas fa-desktop"></i>En <strong>1 hora</strong> empieza PAV</a>
-
-
-        <li><a href="#"><i class="fas fa-desktop"></i>En Tareas pendientes en PAV</a>
-
-
-
-
-...-->
-
-
-
-
-
+        <li class='title-list'><h3>Pabellon 4</h3> <a href="config.html"><i class="fas fa-cog"></i></a></li>
+        <li><a href="#"><i class="fas fa-desktop"></i><p>En <strong> 30 minutos </strong> empieza PAV</p></a></li>
+        <li><a href="#"><i class="fas fa-desktop"></i><p>En <strong>1 hora</strong> empieza PAV</p></a></li>
+        <li><a href="#"><i class="fas fa-calendar-day"></i></i><p>Recordá que hoy juega River!</p></li>
       </nav>
       </header>
       <hr>

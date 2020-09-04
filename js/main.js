@@ -1,16 +1,13 @@
-$(document).ready(function() {
-    // document is loaded and DOM is ready
+//iniciador
+const initialize = () => {
+  
+  getTheme()
+}
 
-$(".day-a").click(function(){
-  $(this).toggleClass("day-c");
+
+// MOSTRAR MENU MOBILE
+$(document).ready(function () {
+  $('#menu_on').click(function () { 
+    $('body').toggleClass('visible_menu');
+  })
 });
-
-$(".day-b").click(function(){
-  $(this).toggleClass("day-c");
-});
-
-
-});
-
-
-
