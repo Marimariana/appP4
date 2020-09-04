@@ -38,19 +38,9 @@ $(".btn-ob1").on({
      }
  });
 
-
-
-
-
 $(".btn-ob1").click(function(){
   $(this).toggleClass("btn-obc");
 });
-
-
-
-
-
-
 
 
 $(".btn-ob2").click(function(){
@@ -58,6 +48,12 @@ $(".btn-ob2").click(function(){
 });
 
 
+
+
+$(".radio-btn").click(function(){
+  $(this).toggleid("btn-a");
+
+}); 
 
 
 });

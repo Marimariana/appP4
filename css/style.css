@@ -673,32 +673,8 @@ i.far.fa-circle:hover, i.far.fa-circle::selection, i.far.fa-circle:focus, i.far.
   background-color: #005F93;
 }
 
-/*nati cuentas y version desktop */
-.container-datos {
-  margin-top: 2rem;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.77px;
-  color: #77838F;
-  display: flex;
-  justify-content: space-around;
-}
 
-.container-respuestas {
-  margin-top: 0.7rem;
-  letter-spacing: 0.77px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  color: #C1C1C1;
-  display: flex;
-  justify-content: space-around;
-}
+
 
 .conectar-web {
   font-family: Roboto;
@@ -1527,7 +1503,7 @@ body .appSection input[type=time] {
   width: 100%;
   border: none;
   border-radius: 0;
-  margin: -16px 127px -16px 127px;
+  margin: -16px 100px -16px 100px;
   box-sizing: border-box;
   display: flex;
   justify-content: center; 
@@ -1546,7 +1522,8 @@ body .appSection input[type=time] {
   letter-spacing: 0.77px;
   color: #77838F;
   display: flex;
-  justify-content: space-around;
+  margin-left: 37px;
+
 }
 
 .container-respuestas {
@@ -1559,7 +1536,8 @@ body .appSection input[type=time] {
   line-height: 21px;
   color: #C1C1C1;
   display: flex;
-  justify-content: space-around;
+  margin-left: 36px;
+
 }
 
 .conteiner-qr {
@@ -1891,6 +1869,17 @@ body .appSection .btn-obc {
 
 
 
+.container-linea1 {
+
+}
+
+#datos-linea2 {
+
+margin-left: 40px;
+}
 
 
+#respuestas-linea2 {
 
+margin-left: 78px;
+}
