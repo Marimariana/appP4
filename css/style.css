@@ -422,14 +422,7 @@ dropdown ul li:nth-child(3):hover .fa {
 }
 
 /* COSMETIC STYLING */
-.calendar__header > div {
-  text-transform: uppercase;
-  font-size: 0.8em;
-  font-weight: bold;
-  border-right: 1.2438px solid rgba(255, 255, 255, 0.5);
-  height: 30px;
-  padding-top: 10px;
-}
+
 
 .calendar__day {
   border-right: 1.2438px solid rgba(255, 255, 255, 0.5);
@@ -1190,15 +1183,7 @@ body .container-form-config form {
 }
 
 /* COSMETIC STYLING */
-.alarms2__header > div {
-  text-transform: uppercase;
-  font-size: 0.8em;
-  font-weight: bold;
-  border: 2px solid #10BEF0;
-  height: 30px;
-  padding-top: 10px;
-  inn
-}
+
 
 
 body .appSection .time  {
@@ -1212,7 +1197,7 @@ body .appSection input[type=time] {
   font-family: barlow;
   font-weight: bold;
   font-size: 60px;
-  padding: 12px 50px;
+  padding: 0px 0px;
   -webkit-appearance: none;
   display: block;
   background: #323746;
@@ -1220,7 +1205,7 @@ body .appSection input[type=time] {
   width: 100%;
   border: none;
   border-radius: 0;
-  margin: 8px 0;
+  margin: -16px 127px -16px 127px;
   box-sizing: border-box;
   display: flex;
   justify-content: center; 
@@ -1278,7 +1263,12 @@ color: white;
 
 }
 
+.day-selected{
+background-color: #10BEF0;
+font-weight: bold;
+color: white;
 
+}
 
 .day-b:hover{
 background-color: #10BEF0;
@@ -1331,25 +1321,22 @@ body .appSection .vista {
   max-width: 283px;
 }
 
+
+
 #btn-a{
   background-color: #10BEF0;
   margin-right: 6px;
 }
 
 
+
+
 #btn-b{
     margin-left: 6px;
 }
 
-#modo-oscuro{
-  border-color: #10BEF0;
-    margin-left: 0px;
-    min-width: 252px  ;
-    width: auto;
-    display: flex;
-    align-items: center;
-    vertical-align: middle;
-}
+
+
 
 #modo-oscuro{
   border-color: #10BEF0;
@@ -1360,6 +1347,20 @@ body .appSection .vista {
     align-items: center;
     vertical-align: middle;
 }
+
+
+
+#modo-oscuro{
+  border-color: #10BEF0;
+    margin-left: 0px;
+    min-width: 252px  ;
+    width: auto;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
 
 #modo-oscuro:hover{
 opacity: 75%;
@@ -1369,11 +1370,15 @@ background-color: #323746;
 
 
 
+
 #ringtone{
   font-weight: regular;
   font-size: 12px;
 
 }
+
+
+
 
 #aplazo{
 font-weight: regular;
@@ -1382,11 +1387,96 @@ font-size: 12px;
 }
 
 
+
 #conteiner-qr img {
   max width: 100px;
 }
 
-a 
+  
+.alarms2_header2:{
+    text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  border: 2px solid #10BEF0;
+  height: 30px;
+  padding-top: 10px;
+  inn
+}
+
+.day-a:{
+  font-weight: 
+background-color: #10BEF0;
+font-weight: bold;
+color: white;
+
+}
+  
+
+#day-lu:{
+  font-weight: 
+  background-color: #10BEF0;
+  font-weight: bold;
+  color: white;
+
+} 
 
 
-body form .bnt-ob - 
+body .time-arrows-up  {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+}
+
+
+body .time-arrows-down  {
+display: flex;
+justify-content: center;
+margin-top: 8px;
+
+}
+
+
+
+.day-a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  border: 2px solid #10BEF0;
+  order-right: 1.2438px solid rgba(255, 255, 255, 0.5);
+  height: 30px;
+  padding-top: 10px;
+}
+
+.day-b {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  border: 2px solid #10BEF0;
+  height: 30px;
+  padding-top: 10px;
+}
+
+
+
+
+.day-c {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  border: 2px solid #FFF;
+  color: white;
+  height: 30px;
+  padding-top: 10px;
+  background-color: #10BEF0;
+}
+
+
+
+
+
+
+
+
+
+
