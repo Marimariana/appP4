@@ -85,6 +85,13 @@ body .appSection form {
   display: flex;
   flex-direction: column;
 }
+
+/*margen para form de login*/ 
+
+.form-login {
+  margin-top: 195px;
+}
+
 body .appSection .group {
   position: relative;
   margin-bottom: 45px;
@@ -95,7 +102,7 @@ body .appSection input {
   -webkit-appearance: none;
   display: block;
   background: #323746;
-  color: #636363;
+  color: #9ADFF3;
   width: 94%;
   border: none;
   border-radius: 0;
@@ -113,7 +120,97 @@ body .appSection label {
   left: 5px;
   top: 10px;
   transition: all 0.2s ease;
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
 }
+
+/* prueba estilo V02*/ 
+.group 			  { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+input 				{
+  color: #9ADFF3;
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+  color:#10BEF0; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color: #77838F;
+}
+
+input:focus, input:valid {
+  color:#9ADFF3;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#5264AE; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+
+
+/* HIGHLIGHTER ================================== */
+
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:##10BEF0; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#10BEF0; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#10BEF0; }
+  to 	{ width:0; background:transparent; }
+}
+
+/*cierre prueba estilo */
+
+
+
+
 body .appSection input:focus ~ label, body .appSection input.used ~ label {
   top: -20px;
   transform: scale(0.95);
@@ -155,6 +252,7 @@ body .appSection .highlight {
   pointer-events: none;
   opacity: 0.5;
 }
+
 body .appSection input:focus ~ .highlight {
   animation: inputHighlighter 0.3s ease;
 }
