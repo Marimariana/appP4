@@ -1961,27 +1961,48 @@ body .appSection .btn-obc {
   list-style: none;
   text-decoration: none;
   line-height: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 #acordeon a {
   line-height: 1.3;
 }
 #acordeon {
-  width: 250px;
+  width: 298px;
+}
+
+#acordeon h2 {
+  
+font-family: "Barlow", sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 108.18%;
+color: #FFFFFF;
+
 }
 
 #acordeon>ul>li>a {
-  padding-right: 40px;
+  padding-right: 15px;
   font-size: 25px;
   font-weight: bold;
-  display: block;
-  text-transform: uppercase;
-  position: relative;
 }
 
+#acordeon .event-header {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#acordeon .event-uno {
+  flex-direction: row;
+  justify-content: space-between;
+}
+#acordeon .alarm {
+  margin: -37px 16px 27px;
+}
 #acordeon>ul>li>a>span {
   padding: 10px;
-  display: block;
   font-size: 13px;
   font-weight: 300;
 }
@@ -2014,27 +2035,23 @@ body .appSection .btn-obc {
 }
 
 #acordeon ul ul li {
-  border: 1px solid #e0e0e0;
   border-top: 0;
 }
 
 #acordeon ul ul a {
   padding: 10px;
   display: block;
-  color: #ed1144;
-  font-size: 13px;
 }
 
 #acordeon ul ul a:hover {
-  color: #bd0e36;
 }
 
 #acordeon ul ul li.odd {
-  background: #f4f4f4;
+  border-radius: 20px;
 }
 
 #acordeon ul ul li.even {
-  background: #fff;
+  border-radius: 20px;
 }
 
 /*termina prueba colapso 02*/
