@@ -40,18 +40,22 @@ $(".btn-ob1").on({
      }
  });
 
-
-
-
-
 $(".btn-ob1").click(function(){
   $(this).toggleClass("btn-obc");
 });
 
 
+$(".btn-ob2").click(function(){
+  $(this).toggleClass("btn-obc");
+});
 
 
 
+$(".radio-btnb").click(function(){
+  $(this).css("background-color", "#10BEF0");
+  $(".radiobtn-switchoff").toggleClass("radiobtn-switchonb");
+    $(".radio-btna").css("background-color", "transparent");
+      $(".radiobtn-switchon").toggleClass("radiobtn-switchoffb");
 
 
 
@@ -91,5 +95,8 @@ $("#acordeon > ul > li > a").click(function() {
   } else {
     return false;
   }
+});
+
+
 });
   });
